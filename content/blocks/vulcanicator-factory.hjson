@@ -28,7 +28,7 @@ consumes: {
   }
 }
 
-research: fortressFactory
+research: fortress-factory
 category: units
 requirements: [
   copper/250
