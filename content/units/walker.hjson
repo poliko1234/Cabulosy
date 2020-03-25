@@ -1,0 +1,20 @@
+type: MinerDrone
+name: Walker
+description: An advanced miner drone. Operates like a draug, but mines thorium and titanium instead of copper and lead.
+
+flying: true
+drag: 0.03
+speed: 0.1
+maxVelocity: 1.6
+range: 80
+health: 160
+toMine: [titanium, thorium]
+minePower: 1.6
+engineSize: 2
+engineOffset: 4.3
+
+weapon: {
+ name: ahhhh
+ bullet: bombExplosive
+}
+

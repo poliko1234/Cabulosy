@@ -1,0 +1,41 @@
+type: flyingUnit
+name: Vulcanicator
+description: A flying version of eruptor. Slowly take down buldings with steams of slag. 
+flying: true
+speed: 0.2
+maxVelocity: 1.2
+health: 980
+mass: 8
+drag: 0.01
+targetAir: false
+range: 120
+engineSize: 4.1
+engineOffset: 5.9
+shootCone: 10
+cellTrnsY: 17
+
+weapon: {
+ name: no
+ lenght: 0
+ range: 120
+ width: 2
+ shots: 1
+ reload: 5
+ alternate: true
+ ejectEfect: none
+ inaccuracy: 20
+ shootSound: flame
+ bullet: {
+ type: LiquidBulletType
+ liquid: slag
+ damage: 5
+ speed: 2.1
+ drag: 0.01
+ status: melting
+ statusDuration: 250
+ incendChance: 10
+ incendAmount: 5
+ incendSpread: 2
+  }
+}
+
