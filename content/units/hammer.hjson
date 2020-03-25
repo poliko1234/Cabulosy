@@ -1,0 +1,24 @@
+type: MinerDrone
+name: Hammer
+description: A big miner drone that mines everything.
+
+flying: true
+drag: 0.32
+speed: 0.2
+maxVelocity: 0.85
+range: 85
+health: 380
+itemCapacity: 160
+toMine: [copper, lead, thorium, titanium]
+minePower: 6.5
+engineSize: 4
+engineOffset: 6.5
+
+weapon: {
+ name: why we need this field for mining drones
+ bullet: arc
+}
+
+
+
+
