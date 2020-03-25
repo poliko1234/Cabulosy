@@ -1,0 +1,8 @@
+type: resource
+name: Adamantite
+description: Rare, incorruptible and almost indestructible bar. Mostly used for defensive constructions.
+hardness: 5
+cost: 7
+color: Fc6a60
+
+
