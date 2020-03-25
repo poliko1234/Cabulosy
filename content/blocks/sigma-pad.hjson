@@ -9,7 +9,7 @@ consumes: {
 		power: 0.7
 	}
 
-research: glaive-mech-pad
+research: glaive-ship-pad
 category: upgrade
 requirements: [
  copper/500
