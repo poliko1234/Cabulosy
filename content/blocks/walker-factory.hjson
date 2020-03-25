@@ -1,0 +1,32 @@
+type: UnitFactory
+name: Walker Miner Drone factory
+description: Produces Walker Miner Drones.
+
+health: 365
+unitType: walker
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: false
+produceTime: 3500
+maxSpawn: 2
+itemCapacity: 50
+
+consumes: {
+  power: 1.8
+  items: {
+    items: [
+      titanium/10
+      copper/25
+    ]
+  }
+}
+
+category: units
+requirements: [
+  copper/80
+  lead/80
+  silicon/50
+  titanium/50
+  graphite/30
+]

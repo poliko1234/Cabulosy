@@ -1,0 +1,21 @@
+type: mechPad
+name: Sigma Ship Pad
+health: 850
+description: Turns your actual mech into the sigma ship.
+mech: sigma
+size: 3
+
+consumes: {
+		power: 1.5
+	}
+
+category: upgrade
+requirements: [
+ copper/500
+ lead/500
+ silicon/300
+ graphite/250
+ adamantite/250
+ plastanium/200
+ thorium/200 
+ ]

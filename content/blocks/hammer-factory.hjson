@@ -1,0 +1,34 @@
+type: UnitFactory
+name: Hammer Miner Drone Factory
+description: Produces Hammer Miner Drones.
+
+health: 400
+unitType: hammer
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: false
+produceTime: 4000
+maxSpawn: 1
+itemCapacity: 80
+
+consumes: {
+  power: 2.6
+  items: {
+    items: [
+      titanium/30
+      plastanium/40
+      silicon/30
+    ]
+  }
+}
+
+category: units
+requirements: [
+  lead/300
+  graphite/200
+  silicon/200
+  titanium/100
+  thorium/100
+  plastanium/50
+]

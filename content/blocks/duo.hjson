@@ -1,0 +1,21 @@
+ammo: {
+ copper: standardCopper
+ graphite: standardDense
+ pyratite: standardIncendiary
+ silicon: standardHoming
+ adamantite: {
+   damage: 23
+   speed: 1.7
+   bulletWidth: 13
+   bulletHeight: 10f
+   reloadMultiplier: 0.4
+   ammoMultiplier: 2
+   lifetime: 75
+   fragBullets: 6
+   fragBullet: {
+   damage: 5
+   speed: 2
+   lifetime: 20
+    }
+  }
+ }
