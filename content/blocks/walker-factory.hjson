@@ -22,7 +22,7 @@ consumes: {
   }
 }
 
-research: draugFactory
+research: draug-factory
 category: units
 requirements: [
   copper/80
