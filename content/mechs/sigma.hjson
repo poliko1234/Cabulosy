@@ -1,0 +1,47 @@
+name: Sigma
+description: The support ship. Heals allied blocks better than tau with your incredible fire rate. Operates better than a standard tau.
+
+ flying: true
+ speed: 0.5
+ maxSpeed: 2
+ drag: 0.1
+ health: 480
+ range: 60
+ canHeal: true
+ buildPower: 2.8
+ miningPower: 6.2
+ mineSpeed: 5.5
+ itemCapacity: 120
+ drillPower: 5
+ range: 80
+ cellTrnsY: 3
+ engineColor: 00ff00
+
+ weapon: {
+   name: ohno
+   lenght: 0.8
+   reload: 18
+   shots: 1
+   shootSound: pew
+   alternate: true
+   bullet: {
+    type: HealBulletType
+    healPercent: 38
+    speed: 5.8
+    damage: 45
+			 lifetime: 120
+		  bulletHeight: 18
+			 bulletWidth: 16
+   }
+	}
+
+
+
+
+
+
+
+
+
+
+
