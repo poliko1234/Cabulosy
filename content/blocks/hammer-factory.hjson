@@ -23,6 +23,7 @@ consumes: {
   }
 }
 
+research: walker-factory
 category: units
 requirements: [
   lead/300
