@@ -1,0 +1,40 @@
+type: UnitFactory
+name: Vulcanicator Fighter Factory
+description: Produces well-armored units equipped with cannons filled of slag.
+
+health: 950
+unitType: vulcanicator
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+produceTime: 2400
+maxSpawn: 4
+itemCapacity: 100
+liquidCapacity: 10
+
+consumes: {
+  power: 2.6
+  liquid: {
+    liquid: slag
+    amount: 1.50
+  }
+  items: {
+    items: [
+      plastanium/20
+      titanium/50
+      silicon/50
+    ]
+  }
+}
+
+category: units
+requirements: [
+  copper/250
+  adamantite/250
+  plastanium/250
+  metaglass/200
+  titanium/200
+  silicon/150
+  graphite/150
+]
