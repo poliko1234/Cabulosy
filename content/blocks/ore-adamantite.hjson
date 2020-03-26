@@ -2,5 +2,5 @@ type: OreBlock
 itemDrop: adamantite
 playerUnmineable: true
 oreDefault: true
-oreThreshold: 0.382
-oreScale: 12
+oreThreshold: 0.883f 
+oreScale: 25.380953f
