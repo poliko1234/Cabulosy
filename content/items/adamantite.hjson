@@ -1,4 +1,4 @@
-type: resource
+type: material
 name: Adamantite
 description: Rare, incorruptible and almost indestructible bar. Mostly used for defensive constructions.
 hardness: 5
