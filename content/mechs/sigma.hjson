@@ -1,5 +1,5 @@
 name: Sigma
-description: The support ship. Heals allied blocks with two-ballistic missiles launchers Has great interceptive attack power
+description: The support ship. Heals allied blocks with two-ballistic missiles launchers. Has great interceptive attack power.
 
  flying: true
  speed: 0.6
