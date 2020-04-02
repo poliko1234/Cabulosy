@@ -8,7 +8,7 @@ ammo: {
    speed: 1.7
    bulletWidth: 13
    bulletHeight: 10f
-   reloadMultiplier: 0.4
+   reloadMultiplier: 0.8
    ammoMultiplier: 2
    lifetime: 75
    fragBullets: 6
